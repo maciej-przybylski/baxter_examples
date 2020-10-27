@@ -30,6 +30,7 @@
 """
 Baxter RSDK Joint Position Waypoints Example
 """
+from __future__ import print_function
 import argparse
 import sys
 

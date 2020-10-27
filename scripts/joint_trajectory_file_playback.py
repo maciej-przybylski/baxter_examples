@@ -29,6 +29,7 @@
 """
 Baxter RSDK Joint Trajectory Example: file playback
 """
+from __future__ import print_function
 
 import argparse
 import operator

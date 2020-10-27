@@ -30,6 +30,7 @@
 """
 Baxter RSDK Gripper Example: joystick
 """
+from __future__ import print_function
 import argparse
 
 import rospy
@@ -81,7 +82,7 @@ def map_joystick(joystick):
     def capability_warning(gripper, cmd):
         msg = ("%s %s - not capable of '%s' command" %
                (gripper.name, gripper.type(), cmd))
-        print msg
+        print(msg)
 
     def offset_position(gripper, offset):
         if gripper.type() != 'electric':

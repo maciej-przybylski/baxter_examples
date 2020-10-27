@@ -30,6 +30,7 @@
 """
 Baxter RSDK Joint Position Example: keyboard
 """
+from __future__ import print_function
 import argparse
 
 import rospy

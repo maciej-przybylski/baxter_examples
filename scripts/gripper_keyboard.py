@@ -30,6 +30,7 @@
 """
 Baxter RSDK Gripper Example: keyboard
 """
+from __future__ import print_function
 import argparse
 
 import rospy

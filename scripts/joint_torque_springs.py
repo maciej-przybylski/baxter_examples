@@ -29,6 +29,7 @@
 """
 Baxter RSDK Joint Torque Example: joint springs
 """
+from __future__ import print_function
 
 import argparse
 
